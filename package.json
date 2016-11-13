@@ -1,0 +1,28 @@
+{
+  "name": "twitter-authentication-server",
+  "version": "1.0.0",
+  "description": "basic twitter authentication server",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapphiredev/twitter-authentication-server.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "sapphire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sapphiredev/twitter-authentication-server/issues"
+  },
+  "homepage": "https://github.com/sapphiredev/twitter-authentication-server#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "oauth": "^0.9.14",
+    "twit": "^2.2.5"
+  }
+}
